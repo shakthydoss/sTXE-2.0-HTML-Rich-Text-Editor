@@ -1,0 +1,36 @@
+<div id='overlay'>
+<div>
+<input type='radio' name='imgSelect' checked='checked' onClick=\"getInsertImgtype('imgPath');\" value='imgPath'>Inset Img by path 
+<input type='radio' name='imgSelect' value='imgUpload' onClick=\"getInsertImgtype('imgUpload');\" >Insert Img by upload
+<div>
+
+<div id='imgUpload' >
+	<p><input type='file'></input>
+	<p><span>width : <input type='text' style='width:40px;border:1'></input></span>
+	<span>height : <input type='text' style='width:40px;border:1'></input></span>
+	<p>Alt Text : <input type='text' id='alttext' value=''  style='width:114px; border: 1 solid '>
+	<p>Align : <select id='align'> 
+			<option value='default'>Default</option>
+			<option value='left'>Left</option>	
+			<option value='right'>Right</option>			 
+		</select>
+</div>
+
+<div id='imgPath' >
+	<p>Img Path : <input type='text' id='weburl' value='' style='width:112px;border:1' >
+	<p><span>width : <input type='text' style='width:40px;border:1;'></input></span>
+	<span>height : <input type='text' style='width:40px;border:1;'></input></span>
+        <p>Alt Text : <input type='text' id='alttext' value=''  style='width:114px;border:1'>
+	<p>Align : <select id='align'> 
+			<option value='default'>Default</option>
+			<option value='left'>Left</option>	
+			<option value='right'>Right</option>			 
+		</select>
+</div>
+</div>
+
+
+
+<span id='imgPath' ><p>Img Path : <input type='text' id='weburl' value='' style='width:112px;border:1' ><p><span>width : <input type='text' style='width:40px;border:1;'></input></span><span>height : <input type='text' style='width:40px;border:1;'></input></span><p>Alt Text : <input type='text' id='alttext' value=''  style='width:114px;border:1'><p>Align : <select id='align'> <option value='default'>Default</option><option value='left'>Left<option><option value='right'>Right</option></select> </span>
+
+<span id='imgUpload' >	<p><input type='file'></input>	<p><span>width : <input type='text' style='width:40px;border:1'></input></span>	<span>height :<input type='text' style='width:40px;border:1'></input></span><p>Alt Text : <input type='text' id='alttext' value=''  style='width:114px;border: 1 solid '><p>Align : <select id='align'><option value='default'>Default</option><optionvalue='left'>Left</option>		<option value='right'>Right</option></select></span>

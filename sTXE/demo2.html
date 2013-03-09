@@ -1,0 +1,59 @@
+<!--
+/* ===================================================
+*	sTXE - HTML Rich Text editor
+*	Copyright 2012 shakthydoss.com
+*	
+*	sTXE  is a simple HTML Rich Text editor writter by shakthydoss.
+*	users of this sTXE  is a simple HTML Rich Text editor are allowed 
+*	to make copy or modify FILE for the custom end user experience.
+*
+*	Please drop a mail at shakthydoss@gmail.com for reporting bug and enhancement.
+	For more information http://shakthydoss.com
+* ========================================================== */
+-->
+<!DOCTYPE html>
+<html dir='ltr'  xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>sTXE - HTML Rich Text editor - Demo2</title>
+		 <link rel="stylesheet" type="text/css" href="assert/css/sTXE.css" />
+	</head>
+
+<body onload="">
+<h1>sTXE - HTML Rich Text editor</h1>
+<h1>Customize the buttons</h1>
+<div id='editorPlanelContainer'  >
+</div>
+
+
+<script type='text/javascript' src='assert/js/sTXE.js'></script>
+<script>
+var controlPanel = {
+	    bold : false,
+	    italic:true,
+	    underline:true,
+	    align_left:true,
+	    align_center:true,
+	    align_right:true,
+	    align_justify:true,
+	    unordered_list:true,
+	    ordered_list:true,
+	    indent:true,
+	    outdent:true,
+	    superscript:false,
+	    subscript:false,
+	    insert_link:true,
+	    remove_link:true,
+	    fonts:false,
+	    fonts_size:false,
+	    fonts_color:false,
+	    symbols:false,
+	    remove_formate:false,
+	    getHtml:false,
+	    author:true
+	};
+loadEditorPlane('editorPlanelContainer',controlPanel)
+</script>
+
+
+</body>
+</html>
